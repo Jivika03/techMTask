@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ff4f5a;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    
+}
+.hero-content h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.hero-content input {
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+.hero-content button {
+    padding: 10px 20px;
+    background: #ff4f5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.restaurants {
+    padding: 20px;
+    text-align: center;
+}
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+}
+.restaurant {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.restaurant a{
+    color: black;
+}
+.restaurant img {
+    width: 100%;
+    border-radius: 10px;
+}
+.collections {
+    padding: 20px;
+    text-align:left;
+}
+.collection-list {
+    display:flex;
+    justify-content: center;
+}
+.collection1 {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/OIP.N79FkE56lGZqYagqxlB6RwHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    text-align:right;
+    color: aliceblue;
+    
+}
+.collection2 {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/OIP.1VKIGdwEhltlIRvRfMOQNQHaFO?w=268&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    text-align:right;
+    color: aliceblue;
+    
+    
+}
+.collection3 {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/OIP.MOd81euyT9K_iZNTCEwZwwHaEg?w=293&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    text-align:right;
+    color: aliceblue;
+}
+.collection4 {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/OIP.4KspwAgaSTzAbVUj_Is6wAHaFO?w=233&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    text-align:right;
+    color: aliceblue;
+    
+}
+.collection1 a{
+    color: aliceblue;
+}
+.collection2 a{
+    color: aliceblue;
+}
+.collection3 a{
+    color: aliceblue;
+}
+.collection4 a{
+    color: aliceblue;
+}
+.collection1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.collection2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.collection3 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.collection4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 5px 0;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-bottom {
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
